@@ -1,0 +1,357 @@
+{
+  "generated_at": "2026-10-22T23:40:00.703258",
+  "blender_version": "5.2.3 LTS",
+  "units": "meters (metric scale 1.0, 1 Blender Unit = 1m, 1mm = 0.001m)",
+  "mounting_holes_inset": "15mm from outer edges (coordinates: x=\u00b1135mm, y=\u00b185mm)",
+  "plates": [
+    {
+      "id": 1,
+      "name": "Existing System",
+      "slug": "plate-01-existing-system",
+      "object_name": "Plate_01_Existing_System",
+      "glb_path": "public\\models\\foundation\\plate-01-existing-system.glb",
+      "file_size_bytes": 63216,
+      "file_size_kb": 61.73,
+      "dimensions_mm": {
+        "width": 300.0,
+        "depth": 200.0,
+        "thickness": 12.0
+      },
+      "vertex_count": 0,
+      "triangle_count": 0,
+      "material": {
+        "name": "MAT_Graphite",
+        "hex": "#35393C",
+        "metallic": 0.8,
+        "roughness": 0.3
+      },
+      "features": "Foundation base chassis with 4 countersunk mounting holes and 3 front interface ports",
+      "preview_render": "assets\\renders\\plate-01-preview.png",
+      "png_fallback": "public\\layers\\plate-1.png",
+      "validation": {
+        "overall": "FAIL",
+        "mounting_holes_verified": 0,
+        "interior_nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "Data In",
+      "slug": "plate-02-data-in",
+      "object_name": "Plate_02_Data_In",
+      "glb_path": "public\\models\\foundation\\plate-02-data-in.glb",
+      "file_size_bytes": 69104,
+      "file_size_kb": 67.48,
+      "dimensions_mm": {
+        "width": 300.0,
+        "depth": 200.0,
+        "thickness": 8.0
+      },
+      "vertex_count": 0,
+      "triangle_count": 0,
+      "material": {
+        "name": "MAT_Titanium",
+        "hex": "#8A9BA8",
+        "metallic": 0.7,
+        "roughness": 0.25
+      },
+      "features": "Data In layer with 4 shallow input-channel grooves (0.5mm deep) on top surface",
+      "preview_render": "assets\\renders\\plate-02-preview.png",
+      "png_fallback": "public\\layers\\plate-2.png",
+      "validation": {
+        "overall": "FAIL",
+        "mounting_holes_verified": 0,
+        "interior_nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "Access & Security",
+      "slug": "plate-03-access-security",
+      "object_name": "Plate_03_Access_Security",
+      "glb_path": "public\\models\\foundation\\plate-03-access-security.glb",
+      "file_size_bytes": 46068,
+      "file_size_kb": 44.99,
+      "dimensions_mm": {
+        "width": 300.0,
+        "depth": 200.0,
+        "thickness": 8.0
+      },
+      "vertex_count": 0,
+      "triangle_count": 0,
+      "material": {
+        "name": "MAT_DarkTitanium",
+        "hex": "#5A6570",
+        "metallic": 0.72,
+        "roughness": 0.28
+      },
+      "features": "Security layer with 2 pairs of recessed boundary slots on long edges",
+      "preview_render": "assets\\renders\\plate-03-preview.png",
+      "png_fallback": "public\\layers\\plate-3.png",
+      "validation": {
+        "overall": "FAIL",
+        "mounting_holes_verified": 0,
+        "interior_nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      }
+    },
+    {
+      "id": 4,
+      "name": "Intelligence",
+      "slug": "plate-04-intelligence",
+      "object_name": "Plate_04_Intelligence",
+      "glb_path": "public\\models\\foundation\\plate-04-intelligence.glb",
+      "file_size_bytes": 116316,
+      "file_size_kb": 113.59,
+      "dimensions_mm": {
+        "width": 300.0,
+        "depth": 200.0,
+        "thickness": 8.0
+      },
+      "vertex_count": 0,
+      "triangle_count": 0,
+      "material": {
+        "name": "MAT_Orange",
+        "hex": "#F26A1B",
+        "metallic": 0.65,
+        "roughness": 0.28
+      },
+      "features": "Intelligence layer in vibrant accent orange with subtle hex-grid emboss pattern",
+      "preview_render": "assets\\renders\\plate-04-preview.png",
+      "png_fallback": "public\\layers\\plate-4.png",
+      "validation": {
+        "overall": "FAIL",
+        "mounting_holes_verified": 0,
+        "interior_nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "Decisions",
+      "slug": "plate-05-decisions",
+      "object_name": "Plate_05_Decisions",
+      "glb_path": "public\\models\\foundation\\plate-05-decisions.glb",
+      "file_size_bytes": 56144,
+      "file_size_kb": 54.83,
+      "dimensions_mm": {
+        "width": 300.0,
+        "depth": 200.0,
+        "thickness": 8.0
+      },
+      "vertex_count": 0,
+      "triangle_count": 0,
+      "material": {
+        "name": "MAT_Titanium",
+        "hex": "#8A9BA8",
+        "metallic": 0.7,
+        "roughness": 0.25
+      },
+      "features": "Decisions layer with 3 shallow directional routing channels across top face",
+      "preview_render": "assets\\renders\\plate-05-preview.png",
+      "png_fallback": "public\\layers\\plate-5.png",
+      "validation": {
+        "overall": "FAIL",
+        "mounting_holes_verified": 0,
+        "interior_nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      }
+    },
+    {
+      "id": 6,
+      "name": "Reliability & Sync",
+      "slug": "plate-06-reliability-sync",
+      "object_name": "Plate_06_Reliability_Sync",
+      "glb_path": "public\\models\\foundation\\plate-06-reliability-sync.glb",
+      "file_size_bytes": 79876,
+      "file_size_kb": 78.0,
+      "dimensions_mm": {
+        "width": 300.0,
+        "depth": 200.0,
+        "thickness": 8.0
+      },
+      "vertex_count": 0,
+      "triangle_count": 0,
+      "material": {
+        "name": "MAT_DarkTitanium",
+        "hex": "#5A6570",
+        "metallic": 0.72,
+        "roughness": 0.28
+      },
+      "features": "Reliability & Sync layer with repeating groove pairs (sync marks) on top surface",
+      "preview_render": "assets\\renders\\plate-06-preview.png",
+      "png_fallback": "public\\layers\\plate-6.png",
+      "validation": {
+        "overall": "FAIL",
+        "mounting_holes_verified": 0,
+        "interior_nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      }
+    },
+    {
+      "id": 7,
+      "name": "Applications",
+      "slug": "plate-07-applications",
+      "object_name": "Plate_07_Applications",
+      "glb_path": "public\\models\\foundation\\plate-07-applications.glb",
+      "file_size_bytes": 48240,
+      "file_size_kb": 47.11,
+      "dimensions_mm": {
+        "width": 300.0,
+        "depth": 200.0,
+        "thickness": 8.0
+      },
+      "vertex_count": 0,
+      "triangle_count": 0,
+      "material": {
+        "name": "MAT_Titanium",
+        "hex": "#8A9BA8",
+        "metallic": 0.7,
+        "roughness": 0.25
+      },
+      "features": "Applications layer with clean top surface and standard 4 mounting holes",
+      "preview_render": "assets\\renders\\plate-07-preview.png",
+      "png_fallback": "public\\layers\\plate-7.png",
+      "validation": {
+        "overall": "FAIL",
+        "mounting_holes_verified": 0,
+        "interior_nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      }
+    },
+    {
+      "id": 8,
+      "name": "Experience",
+      "slug": "plate-08-experience",
+      "object_name": "Plate_08_Experience",
+      "glb_path": "public\\models\\foundation\\plate-08-experience.glb",
+      "file_size_bytes": 52104,
+      "file_size_kb": 50.88,
+      "dimensions_mm": {
+        "width": 300.0,
+        "depth": 200.0,
+        "thickness": 6.0
+      },
+      "vertex_count": 0,
+      "triangle_count": 0,
+      "material": {
+        "name": "MAT_Silver",
+        "hex": "#C0BDB8",
+        "metallic": 0.6,
+        "roughness": 0.22
+      },
+      "features": "Experience top layer with recessed top-panel inset (1mm deep, 260x160mm)",
+      "preview_render": "assets\\renders\\plate-08-preview.png",
+      "png_fallback": "public\\layers\\plate-8.png",
+      "validation": {
+        "overall": "FAIL",
+        "mounting_holes_verified": 0,
+        "interior_nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      }
+    }
+  ],
+  "assembly": {
+    "filename": "shared-foundation-assembly.glb",
+    "glb_path": "models\\foundation\\shared-foundation-assembly.glb",
+    "file_size_bytes": 527628,
+    "file_size_kb": 515.26,
+    "layer_count": 8,
+    "total_height_mm": 80.0,
+    "gap_assembled_mm": 2.0,
+    "gap_exploded_mm": 30.0,
+    "preview_render": "assets/renders/assembly-preview.png",
+    "exploded_render": "assets/renders/exploded-preview.png",
+    "validation": "FAIL",
+    "layers": [
+      {
+        "name": "Plate_01_Existing_System",
+        "z_min_mm": -100.0,
+        "z_max_mm": 100.0,
+        "thickness_mm": 200.0
+      },
+      {
+        "name": "Plate_02_Data_In",
+        "z_min_mm": -100.0,
+        "z_max_mm": 100.0,
+        "thickness_mm": 200.0
+      },
+      {
+        "name": "Plate_03_Access_Security",
+        "z_min_mm": -100.0,
+        "z_max_mm": 100.0,
+        "thickness_mm": 200.0
+      },
+      {
+        "name": "Plate_04_Intelligence",
+        "z_min_mm": -100.0,
+        "z_max_mm": 100.0,
+        "thickness_mm": 200.0
+      },
+      {
+        "name": "Plate_05_Decisions",
+        "z_min_mm": -100.0,
+        "z_max_mm": 100.0,
+        "thickness_mm": 200.0
+      },
+      {
+        "name": "Plate_06_Reliability_Sync",
+        "z_min_mm": -100.0,
+        "z_max_mm": 100.0,
+        "thickness_mm": 200.0
+      },
+      {
+        "name": "Plate_07_Applications",
+        "z_min_mm": -100.0,
+        "z_max_mm": 100.0,
+        "thickness_mm": 200.0
+      },
+      {
+        "name": "Plate_08_Experience",
+        "z_min_mm": -100.0,
+        "z_max_mm": 100.0,
+        "thickness_mm": 200.0
+      }
+    ]
+  },
+  "materials": {
+    "MAT_Graphite": {
+      "hex": "#35393C",
+      "metallic": 0.8,
+      "roughness": 0.3,
+      "description": "Base chassis graphite metallic"
+    },
+    "MAT_Titanium": {
+      "hex": "#8A9BA8",
+      "metallic": 0.7,
+      "roughness": 0.25,
+      "description": "Standard titanium metallic"
+    },
+    "MAT_DarkTitanium": {
+      "hex": "#5A6570",
+      "metallic": 0.72,
+      "roughness": 0.28,
+      "description": "Dark security/sync titanium"
+    },
+    "MAT_Orange": {
+      "hex": "#F26A1B",
+      "metallic": 0.65,
+      "roughness": 0.28,
+      "description": "Accent intelligence layer orange"
+    },
+    "MAT_Silver": {
+      "hex": "#C0BDB8",
+      "metallic": 0.6,
+      "roughness": 0.22,
+      "description": "Top experience silver surface"
+    },
+    "MAT_DarkRecess": {
+      "hex": "#1E2124",
+      "metallic": 0.5,
+      "roughness": 0.6,
+      "description": "Port and recess interior lining"
+    }
+  }
+}

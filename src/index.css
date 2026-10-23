@@ -1,0 +1,140 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+@import '@fontsource/jetbrains-mono/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    background-color: #FAF9F5;
+    color: #090A0D;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAF9F5;
+    color: #090A0D;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Custom refined light scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF9F5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D5D2C9;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF5500;
+  }
+
+  /* Consistent focus ring for accessibility */
+  :focus-visible {
+    outline: 2px solid #FF5500;
+    outline-offset: 2px;
+  }
+
+  /* Architectural white theme tokens */
+  .bg-surface {
+    background-color: #FAF9F5;
+  }
+  .bg-surface-subtle {
+    background-color: #F3F1EB;
+  }
+  .bg-card {
+    background-color: #FFFFFF;
+  }
+  .text-primary {
+    color: #090A0D;
+  }
+  .text-secondary {
+    color: #4A505C;
+  }
+  .border-border {
+    border-color: #E5E2DC;
+  }
+  .text-accent {
+    color: #FF5500;
+  }
+  .bg-accent {
+    background-color: #FF5500;
+  }
+}
+
+/* Cinematic Utilities & Animations */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(1000%); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.35; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+@keyframes radarSweep {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes busDash {
+  to { stroke-dashoffset: -24; }
+}
+
+.animate-scanline {
+  animation: scanline 8s linear infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.animate-radar {
+  animation: radarSweep 6s linear infinite;
+}
+
+.animate-bus-dash {
+  animation: busDash 1.2s linear infinite;
+}
+
+/* Precision architectural engineering grid pattern */
+.bg-tech-grid {
+  background-image: 
+    linear-gradient(to right, rgba(9, 10, 13, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(9, 10, 13, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(circle at 50% 25%, rgba(255, 85, 0, 0.035) 0%, transparent 65%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

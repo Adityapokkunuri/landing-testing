@@ -1,0 +1,175 @@
+{
+  "Plate 01 Existing System": {
+    "status": "PASS",
+    "mesh_count": 1,
+    "mesh_names": [
+      "Plate_01_Existing_System"
+    ],
+    "total_verts": 1640,
+    "total_faces": 3292,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 12.0,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_Graphite"
+    ],
+    "file_size_kb": 58.86
+  },
+  "Plate 02 Data In": {
+    "status": "PASS",
+    "mesh_count": 1,
+    "mesh_names": [
+      "Plate_02_Data_In"
+    ],
+    "total_verts": 1664,
+    "total_faces": 3340,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 8.0,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_Titanium"
+    ],
+    "file_size_kb": 59.66
+  },
+  "Plate 03 Access Security": {
+    "status": "PASS",
+    "mesh_count": 1,
+    "mesh_names": [
+      "Plate_03_Access_Security"
+    ],
+    "total_verts": 1102,
+    "total_faces": 2216,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 8.0,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_DarkTitanium"
+    ],
+    "file_size_kb": 39.94
+  },
+  "Plate 04 Intelligence": {
+    "status": "PASS",
+    "mesh_count": 1,
+    "mesh_names": [
+      "Plate_04_Intelligence"
+    ],
+    "total_verts": 3090,
+    "total_faces": 6092,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 10.6,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_Orange"
+    ],
+    "file_size_kb": 109.24
+  },
+  "Plate 05 Decisions": {
+    "status": "PASS",
+    "mesh_count": 1,
+    "mesh_names": [
+      "Plate_05_Decisions"
+    ],
+    "total_verts": 1297,
+    "total_faces": 2568,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 8.0,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_Titanium"
+    ],
+    "file_size_kb": 46.54
+  },
+  "Plate 06 Reliability Sync": {
+    "status": "PASS",
+    "mesh_count": 1,
+    "mesh_names": [
+      "Plate_06_Reliability_Sync"
+    ],
+    "total_verts": 1990,
+    "total_faces": 3992,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 9.2,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_DarkTitanium"
+    ],
+    "file_size_kb": 71.16
+  },
+  "Plate 07 Applications": {
+    "status": "PASS",
+    "mesh_count": 1,
+    "mesh_names": [
+      "Plate_07_Applications"
+    ],
+    "total_verts": 1167,
+    "total_faces": 2346,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 8.0,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_Titanium"
+    ],
+    "file_size_kb": 42.2
+  },
+  "Plate 08 Experience": {
+    "status": "PASS",
+    "mesh_count": 1,
+    "mesh_names": [
+      "Plate_08_Experience"
+    ],
+    "total_verts": 1298,
+    "total_faces": 2608,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 6.0,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_Silver"
+    ],
+    "file_size_kb": 46.82
+  },
+  "Combined Assembly": {
+    "status": "PASS",
+    "mesh_count": 8,
+    "mesh_names": [
+      "Plate_01_Existing_System",
+      "Plate_02_Data_In",
+      "Plate_03_Access_Security",
+      "Plate_04_Intelligence",
+      "Plate_05_Decisions",
+      "Plate_06_Reliability_Sync",
+      "Plate_07_Applications",
+      "Plate_08_Experience"
+    ],
+    "total_verts": 13248,
+    "total_faces": 26454,
+    "dimensions_mm": {
+      "width_x": 300.0,
+      "depth_y": 87.7,
+      "height_z": 200.0
+    },
+    "materials": [
+      "MAT_Orange",
+      "MAT_Titanium",
+      "MAT_Graphite",
+      "MAT_DarkTitanium",
+      "MAT_Silver"
+    ],
+    "file_size_kb": 472.44
+  }
+}
