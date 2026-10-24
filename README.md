@@ -2,6 +2,8 @@
 
 An elite, high-performance web experience demonstrating a modern **8-Layer Decoupled Enterprise Foundation OS** with real-time 3D WebGL visualization, scroll-driven mechanical unpacking, click-to-expand architecture dossiers, and modular hot-swap demonstration.
 
+> 📖 **Full System & Architecture Documentation**: For an in-depth breakdown of every visual component, text, architectural design, 3D WebGL pipeline, and step-by-step developer onboarding instructions, read the comprehensive [LANDING_PAGE_SYSTEM_SPEC.md](file:///c:/Users/ASUS/Desktop/shared/LANDING_PAGE_SYSTEM_SPEC.md).
+
 ---
 
 ## 🌟 Highlights & Features
